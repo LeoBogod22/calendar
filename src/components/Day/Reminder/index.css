@@ -1,0 +1,25 @@
+.reminder {
+  color: #fff;
+  position: relative;
+  font-size: 12px;
+  padding: 3px 5px;
+  margin-bottom: 3px; }
+  .reminder:hover .tools {
+    visibility: visible; }
+  .reminder strong {
+    display: block; }
+  .reminder .tools {
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 5px 3px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1; }
+    .reminder .tools button {
+      float: right; }
+      .reminder .tools button .fas {
+        color: #fff;
+        font-size: 14px; }

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# script/lint: Check JS files for code that doesn't follow the rulez
+
+set -e
+
+$(npm bin)/eslint src/ test/
